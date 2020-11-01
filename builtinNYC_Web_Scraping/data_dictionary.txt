@@ -1,0 +1,26 @@
+The following data are from the webiste BuiltinNYC.com.  'builtinnyc_data.csv" contains raw, as-scraped data, and 'builtinnyc_data_mod.csv' is data after cleaning, with some columns added.
+
+address = company street address
+
+company= company name from the list page
+
+date = founding date of company
+
+description = company description as provided on the company page
+
+funding = investor funding in the company.  Text string in the form '$194.9M' modified to integer value in the clean data.
+
+i_name = company name from the company page (to compare with company).
+
+job_type = industry listing for company.  Contains up to three keywords sepearated by '+' signs. Split into job_t1, job_t2, and job_t3 in the modified data.
+
+jobs = number of available jobs. Text string in the form 'View 9 Jobs' modified to integer value in clean data.
+
+loc_emply = number of employees working in NYC
+
+tot_employ = total number of employees
+
+g_rate = cacluculated from tot_emply / (2021-date)
+
+
+
